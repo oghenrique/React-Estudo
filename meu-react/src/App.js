@@ -1,8 +1,8 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld.js';
 import SayMyName from './components/SayMyName.js';
 import Pessoa from './components/Pessoa.js';
 import Frase from './components/Frase.js';
+import List from './components/List.js';
 
 function App() {
 
@@ -22,6 +22,7 @@ function App() {
       profissao= "Programador"
       foto = "https://via.placeholder.com/150"    
       />
+      <List/>
       </div>
   );
 }
